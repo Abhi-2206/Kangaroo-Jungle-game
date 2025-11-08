@@ -6,9 +6,7 @@ var gameState = PLAY;
 
 var trex, trex_running, trex_collided;
 var jungle, invisiblejungle;
-
 var obstaclesGroup, obstacle1;
-
 var score=0;
 
 var gameOver, restart;
@@ -46,7 +44,6 @@ function setup() {
   
   shrubsGroup = new Group();
   obstaclesGroup = new Group();
-  
   score = 0;
 
 }
@@ -102,7 +99,6 @@ function draw() {
     
   }
 
-  
   drawSprites();
 
 
